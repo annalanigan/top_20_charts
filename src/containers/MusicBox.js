@@ -31,7 +31,7 @@ class MusicBox extends Component {
     console.log("this first", this.state.top20[0]);
     return (
       <div>
-        <Title/>
+        <Title />
         <TopTenBox allSongs={this.state.top20}/>
       </div>
     )

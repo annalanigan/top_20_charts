@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const Title = () => {
 
   return (
-    <h1>Top 20 Hits</h1>
+    <h1 className="title">Top 20 Hits</h1>
   )
 
 }
